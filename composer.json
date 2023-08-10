@@ -1,0 +1,22 @@
+{
+  "name": "j0celyn/ibd2mysql",
+  "description": "Tool to recover InnoDB tables in a corrupted MySQL database or MySQL server",
+  "keywords": ["MySQL","InnoDB"],
+    "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jocelyn Flament",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+        "psr-4": {
+            "j0celyn\\ibd2mysql\\": "src/"
+    }
+    },
+    "require": {
+        "php": ">=8.0.0",
+        "ext-pdo": "*"
+  }
+}
