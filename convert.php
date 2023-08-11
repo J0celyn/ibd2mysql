@@ -6,7 +6,7 @@
  * This is the file that must be called in the console
  */
 
-require __DIR__ . '/../../autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 use j0celyn\ibd2mysql\ibd2mysql;
 

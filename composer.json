@@ -2,7 +2,7 @@
   "name": "j0celyn/ibd2mysql",
   "description": "Tool to recover InnoDB tables in a corrupted MySQL database or MySQL server",
   "keywords": ["MySQL","InnoDB"],
-    "type": "library",
+    "type": "project",
   "license": "MIT",
   "authors": [
     {

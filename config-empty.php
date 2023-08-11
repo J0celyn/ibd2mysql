@@ -19,7 +19,9 @@ const BACKUP_DIR = ''; // full path to the directory of backup IBD files (the IB
 const OUTPUT_DIR = ''; // full path to the directory where this script will create SDI and SQL files
 
 /*
- * if DB_NAMES is empty, it will process all subdirectories (databases) found in BACKUP_DIR
+ * if DB_NAMES is empty, it will process all subdirectories found:
+ * - in BACKUP_DIR when using the option --sdi
+ * - in OUTPUT_DIR when using the options --sql or --repair
  * otherwise, il will only process the subdirectories (databases) listed below
  *
  * example: ['my_database', 'another_database', 'third_db']
